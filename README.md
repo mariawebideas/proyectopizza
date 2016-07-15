@@ -1,51 +1,32 @@
-# Coursera - Swift: programar para iOS
+# Coursera - Swift Interfaz de usuario en iOS
 * Tecnológico de Monterrey
-* April - May 2016
+* Jul - Aug 2016
 
 
-### About this Course
+## Week 2 Assignment
 
-En este curso podrás crear una interfaz gráfica para una aplicación móvil de iOS. Aplicarás el patrón de diseño Modelo-Vista-Controlador, el cual te permitirá crear aplicaciones fácilmente actualizables. Asimismo, emplearás los principales componentes gráficos que casi siempre aparecen en una interfaz y podrás identificar los principios básicos de diseño recomendados por Apple en la creación de aplicaciones exitosas. 
+Construir una app para la plataforma iPhone capaz de mostrar las opciones necesarias para que el usuario pueda crear una pizza personalizada.
 
-Hacia el final del curso te guiaremos para que puedas crear tu primera aplicación móvil completa, la cual será tu llave de entrada al mundo de las aplicaciones comerciales en iOS.
+### Instructions
 
-Para asegurar una experiencia exitosa en el estudio de este curso, es importante que tengas una experiencia previa en el lenguaje Swift y en el desarrollo de aplicaciones a través de Xcode.
+Construir una aplicación multivista en Swift que se pueda correr en el simulador de iOS usando Xcode y que permita la creación de una pizza estará compuesta por al menos 4 etapas de selección y una etapa de confirmación
 
+* Las etapas de selección serán al menos 4: tamaño, tipo de masa, tipo de queso, ingredientes. Existe la posibilidad de agregar una o dos etapas extras.
 
-###Syllabus
+* El usuario podrá moverse hacia delante o hacia atrás en la selección de cada etapa.
 
-## Week 1
-* Introducción y bienvenida
-* La interfaz gráfica, la cara que enamora
- * Bienvenidos
- * La experiencia gráfica de usuario (UX)
- * Los componentes gráficos en iOS
- * Creación de una interfaz gráfica
- * Definición del comportamiento en una interfaz gráfica
-* Quiz: Las vistas gráficas y sus componentes visuales
+Descripción de las etapas de selección:
 
-## Week 2
-* Creación de apps multivistas
- * Multiples pantallas en una sola app
- * Control de navegación entre pantallas
- * Control de navegación mediante pestañas
- * El ciclo de vida de las vistas
- * Lineamientos de diseño en apps
-* Quiz: Creación de apps multivista
-* Peer Graded Assignment: App para crear una pizza desde iPhone
+* Seleccionar el tamaño de la pizza: chica, mediana, grande
 
-## Week 3
-* La interfaz gráfica en Apple Watch
- * El entorno de desarrollo en Apple Watch
- * Aplicaciones en Apple Watch
- * Aplicaciones multipantalla en Apple Watch
-* Quiz: La interfaz gráfica en Apple Watch
+* Seleccionar el tipo de masa: delgada, crujiente, gruesa
 
-## Week 4
-* Depuración y pruebas de apps
-* Cierre del curso
- * Describiendo las pruebas unitarias en apps
- * Uso de puntos de interrupción
- * Despedida
-* Quiz: Depuración y pruebas de apps
-* Peer Graded Assignment: App para crear una pizza desde Apple Watch
+* Seleccionar el tipo de queso: mozarela, cheddar, parmesano, sin queso
+
+* Seleccionar de uno a cinco ingredientes: jamón, pepperoni, pavo, salchicha, aceituna, cebolla, pimiento, piña, anchoa, etc.
+
+* Etapa de confirmación. Al final de las 4 etapas mínimas vendrá una etapa final de confirmación en donde el usuario deberá ratificar la configuración de su pizza. Una vez aceptada la configuración de su pizza, esta podría ser enviada a la cocina. En esta etapa el usuario podría no aceptar y regresar a cambiar alguna de las etapas de selección.
+
+La app no podrá confirmar una orden de pizza si el usuario no realizó alguna selección en las etapas de configuración de la pizza.
+
+El proyecto deberá estar en GitHub
